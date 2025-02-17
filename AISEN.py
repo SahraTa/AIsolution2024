@@ -13,7 +13,7 @@ def index():
             # You can use sentiment.polarity (-1.0 to 1.0) to determine overall sentiment.
             polarity = blob.sentiment.polarity
             sentiment = "Positive" if polarity > 0 else "Negative" if polarity < 0 else "Neutral"
-    return render_template("index.html", sentiment=sentiment)
+    return render_template("WepSent.html", sentiment=sentiment)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
