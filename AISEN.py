@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from textblob import TextBlob   #calculates the sentiment polarity
+from textblob import TextBlob   #calculates the sentiment polarity means we can see if the text is + or -
 
 app = Flask(__name__)
 

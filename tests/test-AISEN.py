@@ -1,5 +1,5 @@
 import pytest
-from AISEN import app
+from AISEN import app     #to test our application 
 
 @pytest.fixture
 def client():
